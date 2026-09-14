@@ -51,9 +51,9 @@ cd RTU_BDAA_Course_2026
 
 Alternatively, download the repository as a ZIP file from GitHub and extract it.
 
-### 3. Optional: create a virtual environment
+### 3. Recommended: create a virtual environment
 
-Creating a separate Python environment is recommended:
+Creating a separate Python environment keeps the course packages isolated from the rest of your Python installation.
 
 **Windows PowerShell:**
 
@@ -69,13 +69,35 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-### 4. Install the main Lecture 6 packages
+If `python` is not recognized on Windows, try `py` instead.
+
+### 4. Install the course requirements
+
+The repository contains a [`requirements.txt`](requirements.txt) file with the Python packages needed for the current notebooks.
+
+First, optionally update `pip`:
 
 ```bash
-python -m pip install jupyter requests beautifulsoup4 pandas lxml
+python -m pip install --upgrade pip
 ```
 
-The notebooks also contain a setup cell that checks for the main required packages and installs missing ones when needed.
+Then install all required packages:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+On Windows, if you use the `py` launcher instead of `python`, run:
+
+```powershell
+py -m pip install -r requirements.txt
+```
+
+For Lecture 6 this installs Jupyter/IPython kernel support together with `requests`, `beautifulsoup4`, `pandas`, and `lxml`.
+
+You normally need to run the requirements installation only once for a given virtual environment. If `requirements.txt` is updated later in the course, run the same command again.
+
+The notebooks also contain a small setup check for their main runtime packages, which is useful in Google Colab or when a package is missing locally.
 
 ### 5. Open the repository in VS Code
 
