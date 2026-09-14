@@ -1,0 +1,9 @@
+# Core packages for the RTU BDAA 2026 Jupyter notebooks
+# Lecture 6: Web Scraping
+
+jupyter
+ipykernel
+requests
+beautifulsoup4
+pandas
+lxml
