@@ -19,7 +19,8 @@ from time import sleep
 from urllib.parse import unquote, urljoin, urlsplit, urlunsplit
 
 
-DEFAULT_START_URL = "https://www.ss.com/en/real-estate/flats/riga/centre/sell/"
+# DEFAULT_START_URL = "https://www.ss.com/en/real-estate/flats/riga/centre/sell/"
+DEFAULT_START_URL = "https://www.ss.com/en/real-estate/flats/riga/bolderaya/sell/"
 DEFAULT_DELAY = 0.5
 DEFAULT_TIMEOUT = 20.0
 DEFAULT_OUTPUT_DIR = Path("data")
