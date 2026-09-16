@@ -44,6 +44,14 @@ Pilns **Run All** funkcijās sadalīts rasmošanas risinājums. HTTP pieprasīju
 
 [![Atvērt Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ValRCS/RTU_BDAA_Course_2026/blob/main/notebooks/lecture_06_web_scraping/06_04_ss_com_full_scraping_workflow.ipynb)
 
+#### 6.05 — Bonus: IKEA produktu apraksti un cenas
+
+Papildu e-komercijas rasmošanas piemērs ar IKEA Latvija produktu kategoriju. Ar vienu HTTP pieprasījumu tiek nolasītas produktu kartītes, iegūti produktu nosaukumi, īsie apraksti, pašreizējās un iepriekšējās cenas, statusa etiķetes un saites. Piemērā parādīta arī cenu normalizācija no Latvijas formāta un vienkāršas datu kvalitātes pārbaudes.
+
+[Atvērt notebook GitHub](notebooks/lecture_06_web_scraping/06_05_bonus_ikea_products.ipynb)
+
+[![Atvērt Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ValRCS/RTU_BDAA_Course_2026/blob/main/notebooks/lecture_06_web_scraping/06_05_bonus_ikea_products.ipynb)
+
 ### 7. tēma — datu analīze un vizualizācija
 
 #### 7.01 — Datu analīze un vizualizācija ar Pandas un Matplotlib
@@ -144,6 +152,7 @@ notebooks/lecture_06_web_scraping/06_01_web_scraping_refresher.ipynb
 notebooks/lecture_06_web_scraping/06_02_apartment_scraping.ipynb
 notebooks/lecture_06_web_scraping/06_03_web_scraping_apartment_links.ipynb
 notebooks/lecture_06_web_scraping/06_04_ss_com_full_scraping_workflow.ipynb
+notebooks/lecture_06_web_scraping/06_05_bonus_ikea_products.ipynb
 notebooks/lecture_07_data_analysis_visualization/07_data_analysis_visualization.ipynb
 ```
 
